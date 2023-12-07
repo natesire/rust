@@ -1,0 +1,2 @@
+# rust
+Algorithms in Rust
