@@ -1,5 +1,9 @@
+
 fn main() {
-    // compiler isn't liking the explicit superfulous type signature [i32,5]
-    let my_arr = [0,1,2,3,4];
-    println!("Hello, world!");
+    let function_name = "println!";
+    // prefix with _ if not used
+    let _function = match function_name {
+        "println!" => println!("Hello, world!"),
+        _ => println!("Function not found!"),
+    };
 }
